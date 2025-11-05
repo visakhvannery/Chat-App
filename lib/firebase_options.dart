@@ -40,59 +40,16 @@ class DefaultFirebaseOptions {
     }
   }
 
-  static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCMYeMmDhfqaPElattRzI3x3oP_5KHGyiQ',
-    appId: '1:392293816561:web:fe28d29ff44ee75fecb150',
-    messagingSenderId: '392293816561',
-    projectId: 'talkyapp-7a7e6',
-    authDomain: 'talkyapp-7a7e6.firebaseapp.com',
-    databaseURL: 'https://talkyapp-7a7e6-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'talkyapp-7a7e6.firebasestorage.app',
-    measurementId: 'G-J2PJ4GK5W8',
-  );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDWR51DJVWH8f0XBGGii7ta3CdNBRIGeE4',
-    appId: '1:392293816561:android:d1fbdaf1bff1a0e7ecb150',
-    messagingSenderId: '392293816561',
-    projectId: 'talkyapp-7a7e6',
-    databaseURL: 'https://talkyapp-7a7e6-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'talkyapp-7a7e6.firebasestorage.app',
+    apiKey: '',
+    appId: '',
+    messagingSenderId: '',
+    projectId: '',
+    databaseURL: '',
+    storageBucket: '',
   );
 
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBA25F_mJTsWI0Yt5BP5e3X4BpA_ZjogHA',
-    appId: '1:392293816561:ios:4473fb0fceeff499ecb150',
-    messagingSenderId: '392293816561',
-    projectId: 'talkyapp-7a7e6',
-    databaseURL: 'https://talkyapp-7a7e6-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'talkyapp-7a7e6.firebasestorage.app',
-    androidClientId: '392293816561-eornt19b87ncld83ofkji6qrlnvpvbsa.apps.googleusercontent.com',
-    iosClientId: '392293816561-2cc8jelnd5r1jsvnp1oikfdg28b7pp1j.apps.googleusercontent.com',
-    iosBundleId: 'com.visakh.talky',
-  );
 
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBA25F_mJTsWI0Yt5BP5e3X4BpA_ZjogHA',
-    appId: '1:392293816561:ios:4473fb0fceeff499ecb150',
-    messagingSenderId: '392293816561',
-    projectId: 'talkyapp-7a7e6',
-    databaseURL: 'https://talkyapp-7a7e6-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'talkyapp-7a7e6.firebasestorage.app',
-    androidClientId: '392293816561-eornt19b87ncld83ofkji6qrlnvpvbsa.apps.googleusercontent.com',
-    iosClientId: '392293816561-2cc8jelnd5r1jsvnp1oikfdg28b7pp1j.apps.googleusercontent.com',
-    iosBundleId: 'com.visakh.talky',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCMYeMmDhfqaPElattRzI3x3oP_5KHGyiQ',
-    appId: '1:392293816561:web:90d8b322e9cdf4bdecb150',
-    messagingSenderId: '392293816561',
-    projectId: 'talkyapp-7a7e6',
-    authDomain: 'talkyapp-7a7e6.firebaseapp.com',
-    databaseURL: 'https://talkyapp-7a7e6-default-rtdb.asia-southeast1.firebasedatabase.app',
-    storageBucket: 'talkyapp-7a7e6.firebasestorage.app',
-    measurementId: 'G-0ZQM8G2N46',
-  );
 
 }
