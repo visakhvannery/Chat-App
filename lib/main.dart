@@ -23,7 +23,7 @@ void main() async {
     final db = FirebaseDatabase.instanceFor(
       app: Firebase.app(),
       databaseURL:
-      'https://talkyapp-7a7e6-default-rtdb.asia-southeast1.firebasedatabase.app',
+      'https://talk......app',
     );
 
     await db.ref('testConnection').set({
